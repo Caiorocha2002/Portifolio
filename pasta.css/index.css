@@ -1,15 +1,16 @@
 /* img de fundo */
-body{
+body {
     /* background-image: url("../pasta.img/fundo2canva.jpeg"); */
-    background-color:  #322f36;
-    background-attachment:fixed ;
-    background-repeat:no-repeat ;
-    background-size:cover ;
+    background-color: #322f36;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
-     height: 53vw;
+    height: 53vw;
     width: 100%;
 }
- .quadrado{
+
+.quadrado {
     top: 0em;
     border: solid #1b1914;
     height: 7em;
@@ -17,8 +18,9 @@ body{
     width: 6em;
     position: absolute;
 }
-.quadrado2{
-    top:3em;
+
+.quadrado2 {
+    top: 3em;
     left: 2em;
     border: solid #1b1914;
     height: 4em;
@@ -27,30 +29,32 @@ body{
     position: absolute;
     animation: animarespo 14s ease-in-out infinite;
     /* animation: box-nimate 14s  ease-in-out infinite ; */
-   
+
 }
 
- .primeiroBlocoHeader{
+.primeiroBlocoHeader {
     display: grid;
     grid-column: auto;
 }
-.divName{
+
+.divName {
     color: #f0f0f0;
     position: relative;
     top: 9em;
- 
+
     text-align: center;
 
 }
-.minhaApresentacao::before{
+
+.minhaApresentacao::before {
     content: "👋";
-    
-    
+
+
     text-align: center;
 }
 
-.testImg{
-      border-radius: 100%;
+.testImg {
+    border-radius: 100%;
     height: 8em;
     width: 8em;
     text-align: center;
@@ -59,16 +63,18 @@ body{
     position: relative;
 
 }
-.divName h1{
+
+.divName h1 {
     font-size: 54px;
     font-family: 'Jost';
     animation: textAnime 4s linear infinite;
 
 }
-.divName h2{
+
+.divName h2 {
     font-family: 'Jost';
     position: relative;
-    color:rgb(113 218 113);
+    color: rgb(113 218 113);
     top: 2em;
     font-weight: bold;
 }
@@ -76,7 +82,7 @@ body{
 
 
 
-.scrollDiv{
+.scrollDiv {
     position: relative;
     color: #f0f0f0;
     top: 16em;
@@ -84,14 +90,15 @@ body{
 
 }
 
-.scrollDiv p2{
+.scrollDiv p2 {
     top: 0px;
     font-size: 34px;
     position: relative;
     font-family: 'Jost';
-    animation: setaScroll  4s linear infinite;
+    animation: setaScroll 4s linear infinite;
 }
-.scrollDiv div{
+
+.scrollDiv div {
     border-left: solid;
     border-top: solid;
     height: 5em;
@@ -100,34 +107,37 @@ body{
     margin: 0 auto;
     transform: rotate(-135deg);
     border-radius: 10px;
-    animation: setaScroll  4s linear infinite;
+    animation: setaScroll 4s linear infinite;
 
 }
 
 
-main{
+main {
     background: #322f36;
     height: 120vw;
-    
+
 
 }
-.segundoBloco{
+
+.segundoBloco {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.bolinhas{
+
+.bolinhas {
     height: 12em;
     width: 14em;
     position: relative;
-    
+
     top: 24em;
     text-align: center;
     margin: 0 auto;
-    left:-8em;
+    left: -8em;
 
 }
-.border{
+
+.border {
     border-top: solid rgb(5, 247, 5);
     border-left: solid rgb(5, 247, 5);
     height: 10em;
@@ -141,7 +151,7 @@ main{
 
 
 .imgPerfil2 {
-    
+
     height: 14em;
     width: 13em;
     position: relative;
@@ -151,7 +161,7 @@ main{
     left: 2em;
 }
 
-.divSobreMim{
+.divSobreMim {
     top: 21em;
     position: relative;
 
@@ -160,24 +170,26 @@ main{
     color: #f0f0f0;
     margin: 0 auto;
     font-family: 'Jost';
-   
+
 
 }
-.sobreMimTitle{
+
+.sobreMimTitle {
     font-family: 'Jost';
     color: #05f705;
     position: relative;
     font-size: 15px;
     top: -1.9em;
-    
+
     font-weight: bold;
 
 }
-.curriculo{
+
+.curriculo {
     position: relative;
     top: 1.5em;
-    
-   border: solid transparent;
+
+    border: solid transparent;
     padding: 4px 1em;
     border-radius: 36px;
     background: #05f705;
@@ -187,42 +199,45 @@ main{
     text-align: center;
     margin: 0 auto;
 }
- 
-body{
-  
+
+body {
+
     height: 700vw;
     position: relative;
     top: -48px;
-    background-color:  #322f36;;
+    background-color: #322f36;
+    ;
     background-repeat: no-repeat;
     background-size: cover;
- 
+
 
 }
-.bloco3{
- display: grid;
- grid-column: auto;
+
+.bloco3 {
+    display: grid;
+    grid-column: auto;
 }
-.bolinhas2{
-    
+
+.bolinhas2 {
+
     width: 8em;
     position: relative;
-    
+
     top: 24em;
     margin: 0 auto;
 }
 
-.Ferramentas{
+.Ferramentas {
     position: relative;
-    
+
     top: 25em;
     color: #05f705;
     text-align: center;
-    text-decoration:underline;
-    
+    text-decoration: underline;
+
 }
 
-.htmlFerramenta{
+.htmlFerramenta {
     height: 11.5em;
     width: 15em;
     position: relative;
@@ -236,27 +251,31 @@ body{
 
 
 }
-.htmlFerramenta:hover{
-        background-color: #f0f0f0;
-        border-bottom-color: #000;
-        transition: 1ms;
-        cursor: pointer;
-        
+
+.htmlFerramenta:hover {
+    background-color: #f0f0f0;
+    border-bottom-color: #000;
+    transition: 1ms;
+    cursor: pointer;
+
 }
-.htmlFerramenta img{
+
+.htmlFerramenta img {
     position: relative;
     height: 7em;
     margin: 0 35% 0 34%;
 
 }
-.htmlFerramenta h1{
+
+.htmlFerramenta h1 {
     position: relative;
     margin: 0px 77px;
     font-size: 30px;
-    color:#e44d26;
+    color: #e44d26;
 
 }
-.CSSFerramenta{
+
+.CSSFerramenta {
     height: 11.5em;
     width: 15em;
     position: relative;
@@ -270,33 +289,36 @@ body{
 
 
 }
-.CSSFerramenta:hover{
+
+.CSSFerramenta:hover {
     background-color: #f0f0f0;
     border-bottom-color: #000;
     transition: 1ms;
     cursor: pointer;
-    
+
 }
-.CSSFerramenta img{
+
+.CSSFerramenta img {
     position: relative;
     height: 4.7em;
     margin: 0 34% 0 35%;
     top: 1em;
 }
-.CSSFerramenta h1{
+
+.CSSFerramenta h1 {
     position: relative;
     margin: 0px 92px;
     font-size: 30px;
     color: #3799d8;
     top: 1em;
 }
-.jSFerramenta{
+
+.jSFerramenta {
     height: 11.5em;
     width: 15em;
     position: relative;
     top: 33em;
-    margin: 0 auto
-    ;
+    margin: 0 auto;
     border-radius: 6px;
     background: #1f1e22;
     border-bottom: solid;
@@ -305,69 +327,78 @@ body{
 
 
 }
-.jSFerramenta:hover{
+
+.jSFerramenta:hover {
     background-color: #f0f0f0;
     border-bottom-color: #000;
     transition: 1ms;
     cursor: pointer;
-    
+
 }
-.jSFerramenta img{
+
+.jSFerramenta img {
     position: relative;
     height: 4.7em;
     margin: 0 34% 0 35%;
     top: 1em;
 }
-.jSFerramenta h1{
+
+.jSFerramenta h1 {
     position: relative;
     margin: 0px 44px;
     font-size: 30px;
-    color:#f9de4f;
+    color: #f9de4f;
     top: 1em;
 }
-.bloco4{
+
+.bloco4 {
     display: flex;
-flex-direction: column;
+    flex-direction: column;
 
 }
-.Project{
+
+.Project {
     position: relative;
     margin: 0 auto;
     text-align: center;
     text-decoration: underline;
     top: 42em;
     color: #05f705;
-    
+
 }
 
-.projetos{
+.projetos {
     position: relative;
     display: flex;
     flex-direction: column-reverse;
     top: 45em;
 }
-.sPTrunfo{
+
+.sPTrunfo {
     border: solid;
     background: #1b1914;
     height: 17em;
     width: 12em;
 
-    
+
     margin: 2em auto;
-    position:relative;
-   z-index: 2;
-   border-radius: 5px;
-   transition: 1s;
+    position: relative;
+    z-index: 2;
+    border-radius: 5px;
+    transition: 1s;
 
 }
-ul::before{
+
+ul::before {
     text-decoration-line: none;
     text-decoration: none;
-    list-style-type:none;
+    list-style-type: none;
     list-style: none;
-    list-style-type: style none;;
+    list-style-type: style none;
+    ;
 }
-.paragrafo{
+
+.paragrafo {
     color: #05f705;
     position: relative;
     top: 10px;
@@ -380,42 +411,9 @@ ul::before{
 
 
 
-.img{
-    
-    position:absolute;
-    height: 17em;
-    width: 12em;
-    top: 0em;
-    left: 0em;
-    z-index:4;
-    border-radius: 5px;
+.img {
 
-}
-.sPTrunfo img:hover{
-    opacity: 0;
-}
-.linkProjeto{
-    z-index: 80;
- position: relative;
- color: #05f705;
-}
-
-/* .tabela{
-    border: solid;
-    background: #1b1914;
-    height: 17em;
-    width: 12em;
-    top: 90em;
-    left: 28em;;
     position: absolute;
-   z-index: 2;
-   border-radius: 5px;
-   
-
-}
-.tabela img{
-    
-    position:absolute;
     height: 17em;
     width: 12em;
     top: 0em;
@@ -424,70 +422,10 @@ ul::before{
     border-radius: 5px;
 
 }
-.tabela img:hover{
-    opacity: 0;
-}
-.mentalista{
-    border: solid;
-    background: #1b1914;
-    height: 17em;
-    width: 12em;
-    top: 90em;
-    left: 42em;;
-    position: absolute;
-   z-index: 2;
-   border-radius: 5px;
-   transition: 3s;
-   
 
-}
-.mentalista img{
+.sPTrunfo img:hover {
     
-    position:absolute;
-    height: 17em;
-    width: 12em;
-    top: 0em;
-    left: 0em;
-    z-index: 4;
-    border-radius: 5px;
-
-}
-.mentalista img:hover{
     opacity: 0;
 }
-.mentalista p1{
-    font-size: 20px;
-}
-.IMC{
-    border: solid;
-    background: #1b1914;
-    height: 17em;
-    width: 12em;
-    top: 109em;
-    left: 14em;
-    position: absolute;
-   z-index: 2;
-   border-radius: 5px;
-   transition: 3s;
-   
 
-}
-.IMC img{
-    
-    position:absolute;
-    height: 17em;
-    width: 12em;
-    top: 0em;
-    left: 0em;
-    z-index: 4;
-    border-radius: 5px;
 
-}
-.IMC img:hover{
-    opacity: 0;
-}
-.IMC p1{
-    font-size: 25px;
-    left: 10px;
-} 
- */

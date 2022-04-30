@@ -1,98 +1,113 @@
-[data-anime]{
+[data-anime] {
     opacity: 0;
     transition: 1s linear;
-   
+
 }
-[data-anime="left"]{
-    transform:translate3d(-50%,0,0) ;
-    
- 
-}
-[data-anime="right"]{
-    transform:translate3d(10%,0,0) ;
+
+[data-anime="left"] {
+    transform: translate3d(-50%, 0, 0);
 
 
- 
 }
+
+[data-anime="right"] {
+    transform: translate3d(10%, 0, 0);
 
 
 
-[data-anime="dow"]{
-    transform:translate3d(0,300%,0) ;
-    
 }
-[data-anime="dow1"]{
-    transform:translate3d(0,30%,0) ;
-    
-    
+
+
+
+[data-anime="dow"] {
+    transform: translate3d(0, 300%, 0);
+
 }
-[data-anime="leftQuadrado"]{
+
+[data-anime="dow1"] {
+    transform: translate3d(0, 30%, 0);
+
+
+}
+
+[data-anime="leftQuadrado"] {
     right: 0em;
     transform: rotate(-65deg);
-    
-    
+
+
 }
-[data-anime="leftQuadrado"].animate{
+
+[data-anime="leftQuadrado"].animate {
     right: -5em;
     transform: rotate(0deg);
-    
-    
+
+
 }
-[data-anime="dowHTML"]{
-    transform:translate3d(0,100%,0) ;
+
+[data-anime="dowHTML"] {
+    transform: translate3d(0, 100%, 0);
     transition: 1s;
-    
+
 }
-[data-anime="dowCSS"]{
-    transform:translate3d(0,100%,0) ;
+
+[data-anime="dowCSS"] {
+    transform: translate3d(0, 100%, 0);
     transition: 2s;
-    
+
 }
-[data-anime="dowjS"]{
-    transform:translate3d(0,100%,0) ;
+
+[data-anime="dowjS"] {
+    transform: translate3d(0, 100%, 0);
     transition: 3s;
-   
+
     /* 11111111111111111111111111111111111111111111 */
 }
-[data-anime="dowSp"]{
-    transform:translate3d(0,100%,0) ;
+
+[data-anime="dowSp"] {
+    transform: translate3d(0, 100%, 0);
     transition: 1s;
-    
+
 }
-[data-anime="dowTb"]{
-    transform:translate3d(0,100%,0) ;
+
+[data-anime="dowTb"] {
+    transform: translate3d(0, 100%, 0);
     transition: 2s;
-    
+
 }
-[data-anime="dowMt"]{
-    transform:translate3d(0,100%,0) ;
+
+[data-anime="dowMt"] {
+    transform: translate3d(0, 100%, 0);
     transition: 3s;
-    
+
 }
-[data-anime="dowIMC"]{
-    transform:translate3d(0,100%,0) ;
+
+[data-anime="dowIMC"] {
+    transform: translate3d(0, 100%, 0);
     transition: 4s;
-    
+
 }
-[data-anime="dowjS"]{
-    transform:translate3d(0,100%,0) ;
+
+[data-anime="dowjS"] {
+    transform: translate3d(0, 100%, 0);
     transition: 3s;
-    
+
 }
-[data-anime="dow2"]{
-    transform:translate3d(0,500%,0) ;
-    
+
+[data-anime="dow2"] {
+    transform: translate3d(0, 500%, 0);
+
 }
+
 /* [data-anime="on"].animate{
     opacity: 1;
     animation: circulo-quadrado 10s linear infinite;
 } */
-[data-anime].animate{
+[data-anime].animate {
     opacity: 1;
-    transform:translate3d(0px,0px,0px) ;
+    transform: translate3d(0px, 0px, 0px);
     transform: rotate(0);
-    
 
-    
-    
+
+
+
 }

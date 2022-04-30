@@ -1,12 +1,12 @@
 const item = document.querySelectorAll('[data-anime]'); //pegando todos elementos com data-anime 
 
-const animeScroll = () =>{
-    const windowTop = window.pageYOffset +(( window.innerHeight * 3)/ 4);
+const animeScroll = () => {
+    const windowTop = window.pageYOffset + ((window.innerHeight * 3) / 4);
 
-    item.forEach((element) =>{
-        if(windowTop > element.offsetTop){
+    item.forEach((element) => {
+        if (windowTop > element.offsetTop) {
             element.classList.add("animate");
-        }else{
+        } else {
             element.classList.remove("animate");
         };
     });
@@ -14,7 +14,7 @@ const animeScroll = () =>{
 
 // animeScroll();
 
-window.addEventListener("scroll", ()=>{
+window.addEventListener("scroll", () => {
     animeScroll();
 });
 // (( window.innerHeight * 3)/ 4)
