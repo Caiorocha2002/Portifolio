@@ -326,8 +326,9 @@ body{
     top: 1em;
 }
 .bloco4{
-    display: grid;
-grid-column: auto;
+    display: flex;
+flex-direction: column;
+
 }
 .Project{
     position: relative;
@@ -341,6 +342,8 @@ grid-column: auto;
 
 .projetos{
     position: relative;
+    display: flex;
+    flex-direction: column-reverse;
     top: 45em;
 }
 .sPTrunfo{
@@ -348,6 +351,7 @@ grid-column: auto;
     background: #1b1914;
     height: 17em;
     width: 12em;
+
     
     margin: 2em auto;
     position:relative;
