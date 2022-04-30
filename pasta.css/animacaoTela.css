@@ -1,0 +1,26 @@
+.animacaoTraco{
+   
+    height: 4em;
+    width: 4em;
+    border-radius:100% ;
+    position: absolute;
+    right: 1em; 
+    top:150em;
+    border: solid #05f705;
+    animation: circulo-quadrado 10s linear infinite;
+    
+    
+
+   
+}
+.animaTraco2{
+
+border: solid #05f705;
+    height: 4em;
+    width: 4em;
+   
+    position: absolute;
+    left: 3em;
+    border-radius:100% ;
+    top: 120em;
+}

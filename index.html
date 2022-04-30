@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- import font  -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+    </style>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+    </style>
+    <!-- /import font  -->
+
+    <!-- link das paginas  -->
+    <link rel="stylesheet" href="./pasta.css/index.css">
+    <link rel="stylesheet" href="./pasta.css/reset.css">
+    <link rel="stylesheet" href="./pasta.css/animation.css">
+    <link rel="stylesheet" href="./pasta.css/animationScroll.css">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="./pasta.css/animacaoTela.css">
+    <link rel="stylesheet" href="./pasta.js/ScrollAnimate.js">
+    <!-- /link das paginas    -->
+
+    <title>Portifólio</title>
+</head>
+
+<body>
+    <div class="quadrado"></div>
+    <div class="quadrado2"></div>
+    <header>
+        <div class="primeiroBlocoHeader">
+            <div class="divName">
+                <p class="minhaApresentacao">
+                    Olá! meu nome é
+                </p>
+                <h1>Caio Rocha</h1>
+                <h2>Desenvolvedor Web Front-end</h2>
+
+            </div>
+            <img src="./pasta.img/imgperfil.jpg" alt="" class="testImg">
+
+            <div class="scrollDiv">
+                <p2>
+                    Role para baixo
+                </p2>
+
+                <div></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="segundoBloco">
+            <img src="./pasta.img/bolinhas.jpeg" class="bolinhas" data-anime="left" alt="">
+            <div data-anime="dow2">
+
+            </div>
+            <div class="border" data-anime="dow"></div>
+            <img src="./pasta.img/imgperfil.jpg" alt="" data-anime="dow" class="imgPerfil2">
+
+            <div class="divSobreMim" data-anime="right">
+                <h1 class="sobreMimTitle">
+                    Sobre Mim
+                </h1>
+                <p> (mudar essa descrição por uma original)
+                    texto exemplo:Sou o (Nome), desenvolvedor web front-ende,
+                    movido por uma<br>
+                    vontade enorme que me acompanha desde pequeno, de criar coisas,
+                    e resolver problemas decidi entrar nessa grande e área da<br>
+                    tecnologia web, aonde tenho a oportunidade sempre ativa, de estudar
+                    e aprender, obter conhecimento para criar soluções úteis para
+                    as pessoas.<br>
+                    <br>
+
+                    Desenvolvo sites com HTML, CSS e JavaScript, sempre buscando<br>
+                    aprender cada vez mais para alcançar o melhor resultado,
+                    em cada projeto que coloco minhas mãos</p>
+
+                <h1 class="curriculo">Acessar Curriculo</h1>
+
+            </div>
+        </div>
+
+        <div class="bloco3">
+            <img src="./pasta.img/bolinhas.jpeg" class="bolinhas2" data-anime="leftQuadrado" alt="">
+            <h1 class="Ferramentas">Ferramentas</h1>
+            <div class="traco2"></div>
+
+
+            <div class="htmlFerramenta" data-anime="dowHTML">
+                <img src="./pasta.img/html.png" alt="">
+                <h1>HTML</h1>
+            </div>
+
+
+            <div class="CSSFerramenta" data-anime="dowCSS">
+                <img src="./pasta.img/css.png" alt="">
+                <h1>CSS</h1>
+            </div>
+
+            <div class="jSFerramenta" data-anime="dowjS">
+                <img src="./pasta.img/js.png" alt="">
+                <h1>JavaScript</h1>
+            </div>
+
+        </div>
+
+        <div class="bloco4">
+            <div class="animacaoTraco" data-anime="on"></div>
+            <script src="./pasta.js/ScrollAnimate.js"></script>
+
+            <div>
+                <h1 class="Project">Alguns de meus projetos</h1>
+
+            </div> 
+
+            <div id="projetos" class="projetos">
+                <ul class='listaProjetos'>
+                </ul>
+
+            </div>
+            <script src="./pasta.js/project.js"></script>
+       
+     <!----   <div data-anime="dow">
+           
+        
+
+         
+           
+            
+            <div class="animacaoTraco" data-anime="on" ></div>
+                  <div class="animaTraco2"></div> -->
+          
+          
+    <!---        <ul class="listaProjetos">
+           <li class="sPTrunfo" data-anime="dowSp">
+               <img src="./pasta.img/sptrunfo.jpeg" alt="">
+                 <p1>Jogo de cartas<br>
+                     Super trunfo:<br>
+                    <br>
+                    feito na ImersãoDev Alura.<br>
+                    (HTML,CSS,<br>
+                    JavaScript).</p>
+            </li>
+            <li class="tabela" data-anime="dowTb">
+                <img src="./pasta.img/tabelaimg.jpeg" alt="">
+                <p1>Tabela de Jogo:<br>
+                    <br>
+                   feito na ImersãoDev Alura.<br>
+                   <br>
+                (HTML,CSS,<br>
+                JavaScript).</p>
+            
+        </li>
+            <li class="mentalista" data-anime="dowMt">
+                <img src="./pasta.img/imgProjeto2.jpeg" alt="">
+                <p1>Mentalista Alura:<br>
+                    <br>
+                    tentar adivinhar o numero,<br>
+                    <br>
+                    feito na ImersãoDev Alura.<br>
+                    <br>
+                 (HTML,CSS,<br>
+                 JavaScript).</p>
+            </li>
+            <li class="IMC" data-anime="dowSp">
+                <img src="./pasta.img/calculadoraIMC.jpeg" alt="">
+                <p1>calculadora IMC:<br>
+                    <br>
+                    calcule e <br>
+                    compare <br> 
+                    o seu IMC,
+                    <br>
+                    Projeto pessoal.<br>
+                    <br>
+                 (HTML,CSS,<br>
+                 JavaScript).</p>
+            </li>
+       </ul>--->
+    
+   
+    <!--   </main>
+       <footer  >
+
+       </footer> -->
+   </body>
+</html>
