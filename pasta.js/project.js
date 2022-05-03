@@ -41,7 +41,7 @@ function lego(imagem, descricao, ) { // função recebendo a img, descrição e 
 
     const elementoProjeto = document.getElementById("projetos"); // identificando a minha div do html com id
 
-    const montado = liProjetoSp + imagem + descricao + "</li>"; // montando o projeto 
+    const montado = "<div class='respoProjeto'>" + liProjetoSp + imagem + descricao + "</li>"+"</div>"; // montando o projeto 
 
     elementoProjeto.innerHTML = elementoProjeto.innerHTML + montado; // adicionando projeto montado no html
 
