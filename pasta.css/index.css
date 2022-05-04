@@ -31,6 +31,63 @@ body {
     /* animation: box-nimate 14s  ease-in-out infinite ; */
 
 }
+.position{
+    position: absolute;
+     right:4em;
+   top:6em;
+   display: flex;
+   align-items:center;
+   flex-direction: column;
+   z-index: 5;
+   cursor: pointer;
+  
+   
+}
+.divContato{
+    
+   
+   border: solid transparent;
+   background: linear-gradient(#05f705);
+   padding: 0.2em 0.5em;
+   border-radius: 20px;
+   position: fixed;
+   box-shadow: #05f705 0px 0px 10px;
+   
+
+}
+.divContato h1{
+    color:  #fff;
+position: relative;
+font-size: 20px;
+    
+}
+.listaContato.visible{
+    visibility: visible;
+}
+.listaContato{
+  visibility: hidden;
+  position: fixed;
+    margin: 2em auto;
+}
+.listaContato img{
+      height: 3em;
+      font-size: 18px;
+      width: 3em;
+      border-radius: 100%;
+      margin: 0.5em auto;
+      
+      box-shadow: #05f705 0px 0px 10px;
+
+}
+.listaContato.visible .img1{
+    animation: contatos 1s ease-in-out;
+}
+.listaContato.visible .img2{
+    animation: contatos 1.5s ease-in-out;
+}
+.listaContato.visible .img3{
+    animation: contatos 2s ease-in-out;
+}
 
 .primeiroBlocoHeader {
     display: grid;

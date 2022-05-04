@@ -112,6 +112,25 @@
 
  
 }
+@keyframes box-nimate-Respo{
+  0%{
+     top: 6em;
+     left: 5em;
+     transform: rotate(0);
+  }
+  50%{
+    top: 90vh;
+    left: 85vw;
+    transform: rotate(180deg);
+  }
+  10%{
+    top: 6em;
+    left: 5em;
+    transform: rotate(180deg);
+  }
+
+ 
+}
 @keyframes circulo-animate{
   0%{
     top: 57em;
@@ -212,4 +231,12 @@
 
 }
 
+}
+@keyframes contatos{
+  0%{
+    font-size: 5px;
+  }
+  100%{
+    font-size: 18px;
+  }
 }
