@@ -89,7 +89,7 @@ font-size: 20px;
     animation: contatos 2s ease-in-out;
 }
 .listaContato.visible .img4{
-    animation: contatos 4s ease-in-out;
+    animation: contatos 3s ease-in-out;
 }
 
 .primeiroBlocoHeader {
