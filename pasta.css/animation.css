@@ -76,11 +76,20 @@
     color: #f0f0f0;
   }
   50%{
-    color: rgb(113 218 113);
+    color: rgb(120, 42, 111);
   }
   100%{
        color: #f0f0f0;
   }
+}
+@keyframes color{
+  0%{
+    box-shadow:rgb(205, 23, 199) 0px 0px 10px;
+  }
+  100%{
+    box-shadow: rgb(6, 247, 6) 0px 0px 10px;
+  }
+  
 }
 @keyframes textAnime{
 0%{
@@ -103,6 +112,7 @@
     top: 95vh;
     left: 93vw;
     transform: rotate(180deg);
+  
   }
   10%{
     top: 6em;
@@ -122,6 +132,7 @@
     top: 90vh;
     left: 85vw;
     transform: rotate(180deg);
+    
   }
   10%{
     top: 6em;
