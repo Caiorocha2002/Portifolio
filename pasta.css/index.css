@@ -146,8 +146,9 @@ font-size: 20px;
 .divName h2 {
     font-family: 'Jost';
     position: relative;
-    color: (120, 42, 111);
+    color: rgb(178, 160, 176);
     top: 2em;
+    font-size: 17px;
     font-weight: bold;
 }
 
