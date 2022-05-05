@@ -58,7 +58,7 @@ body {
 
 }
 .divContato h1{
-    color:  #fff;
+    color:   rgb(178, 160, 176);
 position: relative;
 font-size: 20px;
     
@@ -249,7 +249,7 @@ main {
 
 .sobreMimTitle {
     font-family: 'Jost';
-    color: rgb(198, 59, 181);
+    color:  rgb(178, 160, 176);
     position: relative;
     font-size: 15px;
     top: -1.9em;
@@ -266,11 +266,19 @@ main {
     padding: 4px 1em;
     border-radius: 36px;
     background: rgb(112, 37, 103);
-    color: #fff;
+    color:  rgb(178, 160, 176);
     font-weight: bold;
     width: 9em;
     text-align: center;
     margin: 0 auto;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.curriculo:hover{
+    padding: 8px 2em;
+    transition: 0.25s;
+    background: rgb(178, 160, 176);
+    color: rgb(112, 37, 103) ;
 }
 
 body {
@@ -304,7 +312,7 @@ body {
     position: relative;
 
     top: 25em;
-    color: rgb(198, 59, 181);
+    color:  rgb(178, 160, 176);
     text-align: center;
     text-decoration: underline;
 
