@@ -1,4 +1,7 @@
 @media screen and (min-width:500px) {
+    body{
+        height: 100vh;
+    }
     .projetos {
         display: flex;
         flex-direction: row-reverse;
@@ -23,6 +26,9 @@
 }
 
 @media screen and (min-width:690px) {
+    body{
+        height: 100vh;
+    }
     .divName {
         top: 6em;
         font-size: 20px;
@@ -137,6 +143,9 @@
 }
 
 @media screen and (min-width:851px) {
+    body{
+        height: 100vh;
+    }
     .divName {
         top: 6em;
         font-size: 20px;
@@ -230,6 +239,9 @@
 }
 
 @media screen and (min-width:941px) {
+    body{
+        height: 100vh;
+    }
     .divName {
         top: 6em;
         font-size: 20px;
@@ -336,6 +348,9 @@
     }
 }
 @media screen and (min-width:1010px) {
+    body{
+        height: 100vh;
+    }
     .quadrado2{
         animation: box-nimate-Respo 10s ease-in-out infinite;
     }
@@ -446,6 +461,9 @@
 }
 
 @media screen and (min-width:1039px) {
+    body{
+        height: 100vh;
+    }
     .quadrado2{
         animation: box-nimate-Respo 10s ease-in-out infinite;
     
@@ -558,6 +576,9 @@
 }
 
 @media screen and (min-width:1082px) {
+    body{
+        height: 100vh;
+    }
     .quadrado2{
         animation: box-nimate-Respo 10s ease-in-out infinite;
     }
@@ -668,6 +689,9 @@
 }
 
 @media screen and (min-width:1164px) {
+    body{
+        height: 100vh;
+    }
     .quadrado2{
         animation: box-nimate-Respo 10s ease-in-out infinite;
     }
@@ -779,6 +803,9 @@
 }
 
 @media screen and (min-width:1167px) {
+    body{
+        height: 100vh;
+    }
     .quadrado2{
         animation: box-nimate-Respo 10s ease-in-out infinite;
     }
@@ -891,6 +918,9 @@
 
 
 @media screen and (min-width:1261px) {
+    body{
+        height: 100vh;
+    }
     .quadrado2{
         animation: box-nimate-Respo 10s ease-in-out infinite;
     }
@@ -1001,6 +1031,9 @@
     }
 }
 @media screen and (min-width:1273px) {
+    body{
+        height: 100vh;
+    }
     .quadrado2{
         animation: box-nimate-Respo 10s ease-in-out infinite;
     }
@@ -1111,6 +1144,9 @@
     }
 }
 @media screen and (min-width:1274px) {
+    body{
+        height: 100vh;
+    }
     .quadrado2{
         animation: box-nimate-Respo 10s ease-in-out infinite;
     }
@@ -1222,6 +1258,9 @@
 }
 
 @media screen and (min-width:1275px) {
+    body{
+        height: 100vh;
+    }
     .quadrado2 {
         animation: box-nimate 10s ease-in-out infinite;
     }
@@ -1332,6 +1371,9 @@
     }
 }
 @media screen and (min-width:1276px) {
+    body{
+        height: 100vh;
+    }
     .quadrado2 {
         animation: box-nimate 10s ease-in-out infinite;
     }
@@ -1442,6 +1484,9 @@
     }
 }
 @media screen and (min-width:1277px) {
+    body{
+        height: 100vh;
+    }
     .quadrado2 {
         animation: box-nimate 10s ease-in-out infinite;
     }
@@ -1553,6 +1598,9 @@
 }
 
 @media screen and (min-width:1355px) {
+    body{
+        height: 100vh;
+    }
     .quadrado2 {
         animation: box-nimate 10s ease-in-out infinite;
     }
@@ -1664,6 +1712,9 @@
 }
 
 @media screen and (min-width:1366px) {
+    body{
+        height: 100vh;
+    }
     .quadrado2 {
         animation: box-nimate 10s ease-in-out infinite;
     }
