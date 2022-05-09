@@ -29,7 +29,7 @@ const ladingPage = {
 }
 const acupuntura = {
     imagem: '<a class="linkProjeto" href="https://caiorocha2002.github.io/Pagina-Simples-Acupuntura/" target="_blank">' + "<img class='img' src='./pasta.img/acupuntura.jpeg'>",
-    text: "<p class='paragrafo'> " + "Lading Page Vendas:" + "<br>" + "Projeto pessoal." + "<br>" + "(HTML,CSS,JavaScript)." + "</p>",
+    text: "<p class='paragrafo'> " + "Pagina simples acupuntura:" + "<br>" + "Projeto pessoal." + "<br>" + "(HTML,CSS,JavaScript)." + "</p>",
 
 
 }
