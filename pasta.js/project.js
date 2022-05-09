@@ -27,10 +27,16 @@ const ladingPage = {
 
 
 }
+const acupuntura = {
+    imagem: '<a class="linkProjeto" href="https://caiorocha2002.github.io/Pagina-Simples-Acupuntura/" target="_blank">' + "<img class='img' src='./pasta.img/acupuntura.jpeg'>",
+    text: "<p class='paragrafo'> " + "Lading Page Vendas:" + "<br>" + "Projeto pessoal." + "<br>" + "(HTML,CSS,JavaScript)." + "</p>",
+
+
+}
 
 
 //arry de projetos
-const projetos = [superTrunfo, tabelaDeJogos, calculadorIMC, mentalista, ladingPage]
+const projetos = [superTrunfo, tabelaDeJogos, calculadorIMC, mentalista, ladingPage, acupuntura]
 
 
 // li com o estilo no css ja preparado
@@ -53,4 +59,4 @@ lego(tabelaDeJogos.imagem, tabelaDeJogos.text);
 lego(calculadorIMC.imagem, calculadorIMC.text);
 lego(mentalista.imagem, mentalista.text);
 lego(ladingPage.imagem, ladingPage.text);
-
+lego(acupuntura.imagem,acupuntura.text)
