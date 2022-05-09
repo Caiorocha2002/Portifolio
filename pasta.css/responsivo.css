@@ -1735,16 +1735,18 @@
 
     .testImg {
         font-size: 20px;
-        top: 7.5em;
+        top: 1.5em;
     }
 
     .scrollDiv {
         font-size: 15px;
-        top: 13em;
+        top: -4em;
     }
 
     .segundoBloco {
         flex-direction: row;
+        top:-10em;
+        position: relative;
     }
 
     .bolinhas {
@@ -1780,6 +1782,8 @@
     .bloco3 {
         display: grid;
         grid-column: auto;
+        position: relative;
+        top:-4em;
     }
 
     .bolinhas2 {
