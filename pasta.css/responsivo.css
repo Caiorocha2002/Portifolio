@@ -1223,12 +1223,12 @@
 
     .testImg {
         font-size: 20px;
-        top: 7.5em;
+        top: 0.5em;
     }
 
     .scrollDiv {
         font-size: 15px;
-        top: 13em;
+        top: -5em;
     }
 
     .segundoBloco {
@@ -1279,19 +1279,22 @@
         flex-direction: row;
         position: relative;
         top: 8em;
+        max-width: none;
     }
 
     .Ferramentas {
 
-        top: 25em;
+        top: 28em;
         text-align: center;
         position: relative;
+    
 
 
     }
 
     .CSSFerramenta {
         top: 28em;
+        margin: 0 5em;
     }
 
     .jSFerramenta {
@@ -1339,12 +1342,12 @@
 
     .testImg {
         font-size: 20px;
-        top: 7.5em;
+        top: 0.5em;
     }
 
     .scrollDiv {
         font-size: 15px;
-        top: 13em;
+        top: -5em;
     }
 
     .segundoBloco {
@@ -1399,7 +1402,7 @@
 
     .Ferramentas {
 
-        top: 25em;
+        top: 28em;
         text-align: center;
         position: relative;
 
@@ -1454,12 +1457,12 @@
 
     .testImg {
         font-size: 20px;
-        top: 7.5em;
+        top: 0.5em;
     }
 
     .scrollDiv {
         font-size: 15px;
-        top: 13em;
+        top: -5em;
     }
 
     .segundoBloco {
@@ -1479,9 +1482,10 @@
     }
 
     .imgPerfil2 {
-        top: 24.5em;
-        left: -20em;
+        top: 24em;
+        left: -22em;
         font-size: 14px;
+        width: 15em;
     }
 
     .sobreMimTitle {
@@ -1514,7 +1518,7 @@
 
     .Ferramentas {
 
-        top: 25em;
+        top: 28em;
         text-align: center;
         position: relative;
 
@@ -1523,6 +1527,7 @@
 
     .CSSFerramenta {
         top: 28em;
+        margin: 0 6em;
     }
 
     .jSFerramenta {
@@ -1543,7 +1548,6 @@
         justify-content: flex-start;
     }
 }
-
 @media screen and (min-width:1274px) {
     body {
         height: 100vh;
@@ -1551,466 +1555,6 @@
 
     .quadrado2 {
         animation: box-nimate-Respo 10s ease-in-out infinite;
-    }
-
-    .divName {
-        top: 6em;
-        font-size: 20px;
-    }
-
-    .divName h1 {
-        font-size: 50px;
-    }
-
-    .divName h2 {
-        top: 0.5em;
-        font-size: 20px;
-    }
-
-    .testImg {
-        font-size: 20px;
-        top: 7.5em;
-    }
-
-    .scrollDiv {
-        font-size: 15px;
-        top: 13em;
-    }
-
-    .segundoBloco {
-        flex-direction: row;
-    }
-
-    .bolinhas {
-        top: 10em;
-        left: -1em;
-        font-size: 15px;
-    }
-
-    .border {
-        top: 20em;
-        left: -4em;
-        font-size: 15px;
-    }
-
-    .imgPerfil2 {
-        top: 24.5em;
-        left: -20em;
-        font-size: 14px;
-    }
-
-    .sobreMimTitle {
-        font-size: 30px;
-        top: -1em;
-    }
-
-    .divSobreMim {
-        top: 23em;
-        left: -9em;
-        font-size: 20px;
-        text-align: left;
-    }
-
-    .bloco3 {
-        display: grid;
-        grid-column: auto;
-    }
-
-    .bolinhas2 {
-        top: 35em;
-    }
-
-    .respo {
-        display: flex;
-        flex-direction: row;
-        position: relative;
-        top: 8em;
-    }
-
-    .Ferramentas {
-
-        top: 25em;
-        text-align: center;
-        position: relative;
-
-
-    }
-
-    .CSSFerramenta {
-        top: 28em;
-    }
-
-    .jSFerramenta {
-        top: 28em;
-    }
-
-    .projetos {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: flex-start;
-        justify-content: space-between;
-        flex-wrap: wrap-reverse;
-        align-items: baseline;
-    }
-
-    .sPTrunfo {
-        margin: 1em;
-        justify-content: flex-start;
-    }
-}
-
-@media screen and (min-width:1275px) {
-    body {
-        height: 100vh;
-    }
-
-    .quadrado2 {
-        animation: box-nimate 10s ease-in-out infinite;
-    }
-
-    .divName {
-        top: 6em;
-        font-size: 20px;
-    }
-
-    .divName h1 {
-        font-size: 50px;
-    }
-
-    .divName h2 {
-        top: 0.5em;
-        font-size: 20px;
-    }
-
-    .testImg {
-        font-size: 20px;
-        top: 7.5em;
-    }
-
-    .scrollDiv {
-        font-size: 15px;
-        top: 13em;
-    }
-
-    .segundoBloco {
-        flex-direction: row;
-    }
-
-    .bolinhas {
-        top: 10em;
-        left: -1em;
-        font-size: 15px;
-    }
-
-    .border {
-        top: 20em;
-        left: -4em;
-        font-size: 16px;
-    }
-
-    .imgPerfil2 {
-        top: 23.5em;
-        left: -18em;
-        font-size: 16px;
-    }
-
-    .sobreMimTitle {
-        font-size: 30px;
-        top: -1em;
-    }
-
-    .divSobreMim {
-        top: 23em;
-        left: -9em;
-        font-size: 20px;
-        text-align: left;
-    }
-
-    .bloco3 {
-        display: grid;
-        grid-column: auto;
-    }
-
-    .bolinhas2 {
-        top: 35em;
-    }
-
-    .respo {
-        display: flex;
-        flex-direction: row;
-        position: relative;
-        top: 8em;
-    }
-
-    .Ferramentas {
-
-        top: 28em;
-        text-align: center;
-        position: relative;
-
-
-    }
-
-    .CSSFerramenta {
-        top: 28em;
-    }
-
-    .jSFerramenta {
-        top: 28em;
-    }
-
-    .projetos {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: flex-start;
-        justify-content: space-between;
-        flex-wrap: wrap-reverse;
-        align-items: baseline;
-    }
-
-    .sPTrunfo {
-        margin: 1em;
-        justify-content: flex-start;
-    }
-}
-
-@media screen and (min-width:1276px) {
-    body {
-        height: 100vh;
-    }
-
-    .quadrado2 {
-        animation: box-nimate 10s ease-in-out infinite;
-    }
-
-    .divName {
-        top: 6em;
-        font-size: 20px;
-    }
-
-    .divName h1 {
-        font-size: 50px;
-    }
-
-    .divName h2 {
-        top: 0.5em;
-        font-size: 20px;
-    }
-
-    .testImg {
-        font-size: 20px;
-        top: 7.5em;
-    }
-
-    .scrollDiv {
-        font-size: 15px;
-        top: 13em;
-    }
-
-    .segundoBloco {
-        flex-direction: row;
-    }
-
-    .bolinhas {
-        top: 10em;
-        left: -1em;
-        font-size: 15px;
-    }
-
-    .border {
-        top: 20em;
-        left: -4em;
-        font-size: 16px;
-    }
-
-    .imgPerfil2 {
-        top: 23.5em;
-        left: -18em;
-        font-size: 16px;
-    }
-
-    .sobreMimTitle {
-        font-size: 30px;
-        top: -1em;
-    }
-
-    .divSobreMim {
-        top: 23em;
-        left: -9em;
-        font-size: 20px;
-        text-align: left;
-    }
-
-    .bloco3 {
-        display: grid;
-        grid-column: auto;
-    }
-
-    .bolinhas2 {
-        top: 35em;
-    }
-
-    .respo {
-        display: flex;
-        flex-direction: row;
-        position: relative;
-        top: 8em;
-    }
-
-    .Ferramentas {
-
-        top: 28em;
-        text-align: center;
-        position: relative;
-
-
-    }
-
-    .CSSFerramenta {
-        top: 28em;
-    }
-
-    .jSFerramenta {
-        top: 28em;
-    }
-
-    .projetos {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: flex-start;
-        justify-content: space-between;
-        flex-wrap: wrap-reverse;
-        align-items: baseline;
-    }
-
-    .sPTrunfo {
-        margin: 1em;
-        justify-content: flex-start;
-    }
-}
-
-@media screen and (min-width:1277px) {
-    body {
-        height: 100vh;
-    }
-
-    .quadrado2 {
-        animation: box-nimate 10s ease-in-out infinite;
-    }
-
-    .divName {
-        top: 6em;
-        font-size: 20px;
-    }
-
-    .divName h1 {
-        font-size: 50px;
-    }
-
-    .divName h2 {
-        top: 0.5em;
-        font-size: 20px;
-    }
-
-    .testImg {
-        font-size: 20px;
-        top: 7.5em;
-    }
-
-    .scrollDiv {
-        font-size: 15px;
-        top: 13em;
-    }
-
-    .segundoBloco {
-        flex-direction: row;
-    }
-
-    .bolinhas {
-        top: 10em;
-        left: -1em;
-        font-size: 15px;
-    }
-
-    .border {
-        top: 20em;
-        left: -4em;
-        font-size: 16px;
-    }
-
-    .imgPerfil2 {
-        top: 23.5em;
-        left: -18em;
-        font-size: 16px;
-    }
-
-    .sobreMimTitle {
-        font-size: 30px;
-        top: -1em;
-    }
-
-    .divSobreMim {
-        top: 23em;
-        left: -9em;
-        font-size: 20px;
-        text-align: left;
-    }
-
-    .bloco3 {
-        display: grid;
-        grid-column: auto;
-    }
-
-    .bolinhas2 {
-        top: 35em;
-    }
-
-    .respo {
-        display: flex;
-        flex-direction: row;
-        position: relative;
-        top: 8em;
-    }
-
-    .Ferramentas {
-
-        top: 28em;
-        text-align: center;
-        position: relative;
-
-
-    }
-
-    .CSSFerramenta {
-        top: 28em;
-    }
-
-    .jSFerramenta {
-        top: 28em;
-    }
-
-    .projetos {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: flex-start;
-        justify-content: space-between;
-        flex-wrap: wrap-reverse;
-        align-items: baseline;
-    }
-
-    .sPTrunfo {
-        margin: 1em;
-        justify-content: flex-start;
-    }
-}
-
-@media screen and (min-width:1355px) {
-    body {
-        height: 100vh;
-    }
-
-    .quadrado2 {
-        animation: box-nimate 10s ease-in-out infinite;
     }
 
     .divName {
@@ -2039,7 +1583,6 @@
 
     .segundoBloco {
         flex-direction: row;
-        top: -15.5em;
     }
 
     .bolinhas {
@@ -2051,13 +1594,14 @@
     .border {
         top: 20em;
         left: -4em;
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .imgPerfil2 {
-        top: 22em;
-        left: -19.8em;
-        font-size: 16px;
+        top: 24em;
+        left: -22em;
+        font-size: 14px;
+        width: 15em;
     }
 
     .sobreMimTitle {
@@ -2066,17 +1610,15 @@
     }
 
     .divSobreMim {
-        top: 23em;
-        left: -9em;
-        font-size: 20px;
+        top: 28em;
+        left: -5em;
+        font-size: 15px;
         text-align: left;
     }
 
     .bloco3 {
         display: grid;
         grid-column: auto;
-        top: -13em;
-        position: relative;
     }
 
     .bolinhas2 {
@@ -2101,14 +1643,11 @@
 
     .CSSFerramenta {
         top: 28em;
+        margin: 0 6em;
     }
 
     .jSFerramenta {
         top: 28em;
-    }
-    .Project{
-        top: 28em;
-    position: relative;
     }
 
     .projetos {
@@ -2118,7 +1657,6 @@
         justify-content: space-between;
         flex-wrap: wrap-reverse;
         align-items: baseline;
-        top: 40em;
     }
 
     .sPTrunfo {
@@ -2126,7 +1664,238 @@
         justify-content: flex-start;
     }
 }
+@media screen and (min-width:1275px) {
+    body {
+        height: 100vh;
+    }
 
+    .quadrado2 {
+        animation: box-nimate-Respo 10s ease-in-out infinite;
+    }
+
+    .divName {
+        top: 6em;
+        font-size: 20px;
+    }
+
+    .divName h1 {
+        font-size: 50px;
+    }
+
+    .divName h2 {
+        top: 0.5em;
+        font-size: 20px;
+    }
+
+    .testImg {
+        font-size: 20px;
+        top: 0.5em;
+    }
+
+    .scrollDiv {
+        font-size: 15px;
+        top: -5em;
+    }
+
+    .segundoBloco {
+        flex-direction: row;
+    }
+
+    .bolinhas {
+        top: 10em;
+        left: -1em;
+        font-size: 15px;
+    }
+
+    .border {
+        top: 20em;
+        left: -4em;
+        font-size: 15px;
+    }
+
+    .imgPerfil2 {
+        top: 24em;
+        left: -22em;
+        font-size: 14px;
+        width: 15em;
+    }
+
+    .sobreMimTitle {
+        font-size: 30px;
+        top: -1em;
+    }
+
+    .divSobreMim {
+        top: 28em;
+        left: -5em;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .bloco3 {
+        display: grid;
+        grid-column: auto;
+    }
+
+    .bolinhas2 {
+        top: 35em;
+    }
+
+    .respo {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 8em;
+    }
+
+    .Ferramentas {
+
+        top: 28em;
+        text-align: center;
+        position: relative;
+
+
+    }
+
+    .CSSFerramenta {
+        top: 28em;
+        margin: 0 6em;
+    }
+
+    .jSFerramenta {
+        top: 28em;
+    }
+
+    .projetos {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap-reverse;
+        align-items: baseline;
+    }
+
+    .sPTrunfo {
+        margin: 1em;
+        justify-content: flex-start;
+    }
+}
+@media screen and (min-width:1355px) {
+    body {
+        height: 100vh;
+    }
+
+    .quadrado2 {
+        animation: box-nimate-Respo 10s ease-in-out infinite;
+    }
+
+    .divName {
+        top: 6em;
+        font-size: 20px;
+    }
+
+    .divName h1 {
+        font-size: 50px;
+    }
+
+    .divName h2 {
+        top: 0.5em;
+        font-size: 20px;
+    }
+
+    .testImg {
+        font-size: 20px;
+        top: 0.5em;
+    }
+
+    .scrollDiv {
+        font-size: 15px;
+        top: -5em;
+    }
+
+    .segundoBloco {
+        flex-direction: row;
+    }
+
+    .bolinhas {
+        top: 10em;
+        left: -1em;
+        font-size: 15px;
+    }
+
+    .border {
+        top: 20em;
+        left: -4em;
+        font-size: 15px;
+    }
+
+    .imgPerfil2 {
+        top: 24em;
+        left: -22em;
+        font-size: 14px;
+        width: 15em;
+    }
+
+    .sobreMimTitle {
+        font-size: 30px;
+        top: -1em;
+    }
+
+    .divSobreMim {
+        top: 28em;
+        left: -5em;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .bloco3 {
+        display: grid;
+        grid-column: auto;
+    }
+
+    .bolinhas2 {
+        top: 35em;
+    }
+
+    .respo {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 8em;
+    }
+
+    .Ferramentas {
+
+        top: 28em;
+        text-align: center;
+        position: relative;
+
+
+    }
+
+    .CSSFerramenta {
+        top: 28em;
+        margin: 0 6em;
+    }
+
+    .jSFerramenta {
+        top: 28em;
+    }
+
+    .projetos {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap-reverse;
+        align-items: baseline;
+    }
+
+    .sPTrunfo {
+        margin: 1em;
+        justify-content: flex-start;
+    }
+}
 @media screen and (min-width:1366px) {
     body {
         height: 100vh;
@@ -2180,7 +1949,7 @@
 
     .imgPerfil2 {
         top: 24em;
-        left: -21.4em;
+        left: -21em;
         font-size: 15px;
     }
 
