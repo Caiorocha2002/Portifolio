@@ -9,6 +9,12 @@ body {
     
     
 }
+body li{
+   text-decoration: none; 
+   
+    list-style-type: none;
+  
+}
 
 .quadrado {
     top: 0em;
@@ -494,6 +500,8 @@ ul::before {
     /* left: 19px; */
     font-family: 'Jost';
     font-size: 20px;
+    width: 10em;
+
 }
 
 
